@@ -1,0 +1,11 @@
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign\bin\Debug\netstandard2.0\ElectronicSign.deps.json
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign\bin\Debug\netstandard2.0\ElectronicSign.dll
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign\bin\Debug\netstandard2.0\ElectronicSign.pdb
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign\obj\Debug\netstandard2.0\ElectronicSign.csprojResolveAssemblyReference.cache
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign\obj\Debug\netstandard2.0\ElectronicSign.csproj.CoreCompileInputs.cache
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign\obj\Debug\netstandard2.0\ElectronicSign.App.xaml.g.cs
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign\obj\Debug\netstandard2.0\ElectronicSign.MainPage.xaml.g.cs
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign\obj\Debug\netstandard2.0\ElectronicSign.AssemblyInfoInputs.cache
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign\obj\Debug\netstandard2.0\ElectronicSign.AssemblyInfo.cs
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign\obj\Debug\netstandard2.0\ElectronicSign.dll
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign\obj\Debug\netstandard2.0\ElectronicSign.pdb

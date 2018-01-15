@@ -1,0 +1,1 @@
+C:\Users\schil\source\repos\ElectronicSign\ElectronicSign\ElectronicSign.UWP\ElectronicSign.UWP.csproj;x86
