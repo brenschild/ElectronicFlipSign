@@ -1,0 +1,309 @@
+﻿<Window x:Class="SignVAlpha.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="718" MinHeight="580" MinWidth="725" MaxHeight="760" MaxWidth="470">
+
+
+    <Grid>
+
+        <Popup Name="SavePopup" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" Height="100">
+            <Label>this is a popup</Label>
+
+        </Popup>
+
+        <StackPanel Margin="0,20,0,-73">
+            <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18" FontWeight="Bold">Custom Window</Label>
+            <Grid>
+                <StackPanel HorizontalAlignment="Right" Margin="0,0,20,40" Orientation="Horizontal">
+                    <Label >Pick a COM port:</Label>
+                    <ComboBox SelectionChanged="COMBox_SelectionChanged" Height="30" SelectedIndex="0" Name="COMBox" Width="100" ></ComboBox>
+                </StackPanel>
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Button x:Name="ConnectButton" FontSize="10" Click="Connect" Content="Connect" Margin="54,0,0,0" Height="20"/>
+                        <Grid>
+                            <Label Name="DisconnectedText" HorizontalAlignment="Left" Foreground="Red">Disconnected</Label>
+                            <Label Name="ConnectedText" Foreground="Green">Connected</Label>
+                        </Grid>
+
+                    </StackPanel>
+                    
+                    <Button Name="DisconnectButton" FontSize="10" Click="Disconnect" Content="Disconnect" Margin="54,10,600,0" Height="20"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label HorizontalAlignment="Center">Current Brightness Level</Label>
+                        <ComboBox  SelectedIndex="0" Name="Brightness" Margin="12,0,0,0" VerticalAlignment="Center">
+                            <ComboBoxItem Content="Auto" ></ComboBoxItem>
+                            <ComboBoxItem Content="Dim" ></ComboBoxItem>
+                            <ComboBoxItem Content="Bright" ></ComboBoxItem>
+                        </ComboBox>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+            <StackPanel  Name="ButtonsControl" Orientation="Horizontal">
+                <StackPanel IsEnabled="True" Margin="20,0,0,0">
+                    <Label>Button 1:</Label>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Single Line</Label>
+                        <CheckBox Click="b1SingleLine_Click" Name="b1SingleLine" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Mirror Text</Label>
+                        <CheckBox Click="b1Reverse_Click" Name="b1Reverse" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Flash</Label>
+                        <CheckBox Click="b1Flashing_Click" Name="b1Flashing" Margin="39,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Auto Scroll</Label>
+                        <CheckBox Click="b1AutoScroll_Click" Name="b1AutoScroll" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Scroll Speed</Label>
+                        <ComboBox Name="b1ScrollSpeed" Margin="2,0,0,0" VerticalAlignment="Center">
+                            <ComboBoxItem Content="1" ></ComboBoxItem>
+                            <ComboBoxItem Content="2" ></ComboBoxItem>
+                            <ComboBoxItem Content="3" ></ComboBoxItem>
+                            <ComboBoxItem Content="4" ></ComboBoxItem>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Display Time</Label>
+                        <TextBox Name="b1DisplayTime" Width="25" VerticalAlignment="Center"></TextBox>
+                        <Label>Seconds</Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 1:</Label>
+                        <TextBox Name="b1Line1" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 2:</Label>
+                        <TextBox Name="b1Line2" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+
+                    <Label>Button 2:</Label>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Single Line</Label>
+                        <CheckBox Click="b2SingleLine_Click" Name="b2SingleLine" Margin="8.5,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Mirror Text</Label>
+                        <CheckBox Click="b2Reverse_Click" Name="b2Reverse" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Flash</Label>
+                        <CheckBox Click="b2Flashing_Click" Name="b2Flashing" Margin="39,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                   <StackPanel Orientation="Horizontal">
+                        <Label>Auto Scroll</Label>
+                        <CheckBox Click="b2AutoScroll_Click" Name="b2AutoScroll" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Scroll Speed</Label>
+                        <ComboBox  Name="b2ScrollSpeed" Margin="2,0,0,0" VerticalAlignment="Center">
+                            <ComboBoxItem Content="1" ></ComboBoxItem>
+                            <ComboBoxItem Content="2" ></ComboBoxItem>
+                            <ComboBoxItem Content="3" ></ComboBoxItem>
+                            <ComboBoxItem Content="4" ></ComboBoxItem>
+
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Display Time</Label>
+                        <TextBox Name="b2DisplayTime" Width="25" VerticalAlignment="Center"></TextBox>
+                        <Label>Seconds</Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 1:</Label>
+                        <TextBox Name="b2Line1" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 2:</Label>
+                        <TextBox Name="b2Line2" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Margin="80,0,0,0">
+                    <Label>Button 3:</Label>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Single Line</Label>
+                        <CheckBox Click="b3SingleLine_Click" Name="b3SingleLine" Margin="8.5,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Mirror Text</Label>
+                        <CheckBox Click="b3Reverse_Click" Name="b3Reverse" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Flash</Label>
+                        <CheckBox Click="b3Flashing_Click" Name="b3Flashing" Margin="39,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Auto Scroll</Label>
+                        <CheckBox Click="b3AutoScroll_Click" Name="b3AutoScroll" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Scroll Speed</Label>
+                        <ComboBox Name="b3ScrollSpeed" Margin="2,0,0,0" VerticalAlignment="Center">
+                            <ComboBoxItem Content="1" ></ComboBoxItem>
+                            <ComboBoxItem Content="2" ></ComboBoxItem>
+                            <ComboBoxItem Content="3" ></ComboBoxItem>
+                            <ComboBoxItem Content="4" ></ComboBoxItem>
+
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Display Time</Label>
+                        <TextBox Name="b3DisplayTime" Width="25" VerticalAlignment="Center"></TextBox>
+                        <Label>Seconds</Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 1:</Label>
+                        <TextBox Name="b3Line1" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 2:</Label>
+                        <TextBox Name="b3Line2" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+
+                    <Label>Button 4:</Label>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Single Line</Label>
+                        <CheckBox Click="b4SingleLine_Click" Name="b4SingleLine" Margin="8.5,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Mirror Text</Label>
+                        <CheckBox Click="b4Reverse_Click" Name="b4Reverse" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Flash</Label>
+                        <CheckBox Click="b4Flashing_Click" Name="b4Flashing" Margin="39,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Auto Scroll</Label>
+                        <CheckBox Click="b4AutoScroll_Click" Name="b4AutoScroll" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Scroll Speed</Label>
+                        <ComboBox Name="b4ScrollSpeed" Margin="2,0,0,0" VerticalAlignment="Center">
+                            <ComboBoxItem Content="1" ></ComboBoxItem>
+                            <ComboBoxItem Content="2" ></ComboBoxItem>
+                            <ComboBoxItem Content="3" ></ComboBoxItem>
+                            <ComboBoxItem Content="4" ></ComboBoxItem>
+
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Display Time</Label>
+                        <TextBox Name="b4DisplayTime" Width="25" VerticalAlignment="Center"></TextBox>
+                        <Label>Seconds</Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 1:</Label>
+                        <TextBox Name="b4Line1" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 2:</Label>
+                        <TextBox Name="b4Line2" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Margin="80,0,0,0">
+                    <Label>Button 5:</Label>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Single Line</Label>
+                        <CheckBox Click="b5SingleLine_Click" Name="b5SingleLine" Margin="8.5,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Mirror Text</Label>
+                        <CheckBox Click="b5Reverse_Click" Name="b5Reverse" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Flash</Label>
+                        <CheckBox Click="b5Flashing_Click" Name="b5Flashing" Margin="39,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Auto Scroll</Label>
+                        <CheckBox Click="b5AutoScroll_Click" Name="b5AutoScroll" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Scroll Speed</Label>
+                        <ComboBox Name="b5ScrollSpeed" Margin="2,0,0,0" VerticalAlignment="Center">
+                            <ComboBoxItem Content="1" ></ComboBoxItem>
+                            <ComboBoxItem Content="2" ></ComboBoxItem>
+                            <ComboBoxItem Content="3" ></ComboBoxItem>
+                            <ComboBoxItem Content="4" ></ComboBoxItem>
+
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Display Time</Label>
+                        <TextBox Name="b5DisplayTime" Width="25" VerticalAlignment="Center"></TextBox>
+                        <Label>Seconds</Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 1:</Label>
+                        <TextBox Name="b5Line1" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 2:</Label>
+                        <TextBox Name="b5Line2" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+
+                    <Label>Button 6:</Label>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Single Line</Label>
+                        <CheckBox Click="b6SingleLine_Click" Name="b6SingleLine" Margin="8.5,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Mirror Text</Label>
+                        <CheckBox Click="b6Reverse_Click" Name="b6Reverse" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Flash</Label>
+                        <CheckBox Click="b6Flashing_Click" Name="b6Flashing" Margin="39,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Auto Scroll</Label>
+                        <CheckBox Click="b6AutoScroll_Click" Name="b6AutoScroll" Margin="8,0,0,0" VerticalAlignment="Center"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Scroll Speed</Label>
+                        <ComboBox Name="b6ScrollSpeed" Margin="2,0,0,0" VerticalAlignment="Center">
+                            <ComboBoxItem Content="1" ></ComboBoxItem>
+                            <ComboBoxItem Content="2" ></ComboBoxItem>
+                            <ComboBoxItem Content="3" ></ComboBoxItem>
+                            <ComboBoxItem Content="4" ></ComboBoxItem>
+
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Display Time</Label>
+                        <TextBox Name="b6DisplayTime" Width="25" VerticalAlignment="Center"></TextBox>
+                        <Label>Seconds</Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 1:</Label>
+                        <TextBox Name="b6Line1" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Line 2:</Label>
+                        <TextBox Name="b6Line2" Width="100" VerticalAlignment="Center"></TextBox>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Name="Cancel" Click="ShutDown" Margin="0,10,14,0" Width="100" Height="25" HorizontalAlignment="Right" Content="Cancel"/>
+                <Button Name="Save" Click="SaveStuffToArduino" Margin="0,10,14,0" Width="100" Height="25" HorizontalAlignment="Right">Save</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
+
+
+

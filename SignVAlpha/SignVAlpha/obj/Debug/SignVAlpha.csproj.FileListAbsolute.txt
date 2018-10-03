@@ -1,0 +1,58 @@
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.exe.config
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.exe
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.pdb
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csprojResolveAssemblyReference.cache
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\MainWindow.g.cs
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\App.g.cs
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha_MarkupCompile.cache
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha_MarkupCompile.lref
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\MainWindow.baml
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.g.resources
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.Properties.Resources.resources
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csproj.GenerateResource.Cache
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csproj.CoreCompileInputs.cache
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.exe
+C:\Users\schil\source\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.pdb
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csprojResolveAssemblyReference.cache
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\MainWindow.g.cs
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\App.g.cs
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha_MarkupCompile.cache
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha_MarkupCompile.lref
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.exe
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.pdb
+C:\P\repos\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.exe.config
+C:\P\repos\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.exe
+C:\P\repos\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.pdb
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\MainWindow.baml
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.g.resources
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.Properties.Resources.resources
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csproj.GenerateResource.Cache
+C:\P\repos\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csproj.CoreCompileInputs.cache
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.exe.config
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.exe
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.pdb
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csprojResolveAssemblyReference.cache
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\obj\Debug\MainWindow.g.cs
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\obj\Debug\App.g.cs
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha_MarkupCompile.cache
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\obj\Debug\MainWindow.baml
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.g.resources
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.Properties.Resources.resources
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csproj.GenerateResource.Cache
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csproj.CoreCompileInputs.cache
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.exe
+F:\game iso\sign\sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.pdb
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.exe.config
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.exe
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\bin\Debug\SignVAlpha.pdb
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\obj\Debug\MainWindow.baml
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\obj\Debug\MainWindow.g.cs
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\obj\Debug\App.g.cs
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha_MarkupCompile.cache
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.g.resources
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.Properties.Resources.resources
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csproj.GenerateResource.Cache
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.csproj.CoreCompileInputs.cache
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.exe
+C:\Users\John\Desktop\Spring 2018\Senior Design 2\Electrical Flip Sign\SignVAlpha\SignVAlpha\obj\Debug\SignVAlpha.pdb
